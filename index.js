@@ -16,5 +16,6 @@ app.get('/',(req, res) => {res.send("Welcome to E_COMMERCE API-REST")})
 //ejecucion
 //app.listen(3000)
 app.listen(process.env.PORT || 5000)
+sslmode = disable
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 console.log("Server running in http://localhost:5000")
