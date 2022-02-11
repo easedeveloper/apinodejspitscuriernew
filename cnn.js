@@ -6,7 +6,7 @@ const config = {
     database: 'pitscourier_basenexdemo',
     password: '!agrc5i5!!',
     port: '5432',
-    sslmode: disable
+    sslmode = disable
       
 }
 const pgp = pgPromise({})
