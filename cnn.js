@@ -10,8 +10,8 @@ const config = {
     host: '157.90.181.209',
     database: 'pitscourier_basenexdemo',
     password: '!agrc5i5!!',
-    port: '5432',
-    ssl: ssl
+    port: '5432'
+    
 
       
 }
